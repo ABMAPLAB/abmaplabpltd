@@ -41,7 +41,6 @@
 </head>
 
 <body>
-
 <!-- LOADER -->
 <div id="preloader">
     <div class="lds-ellipsis">
@@ -82,32 +81,43 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg"> 
         	<a class="navbar-brand" href="index.html"> 
+            	<img class="logo_light" src="assets/images/logo_light.png" alt="logo"> 
                 <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo"> 
             </a>
           	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"> <span class="ion-android-menu"></span> </button>
-			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-					<li><a class="nav-link active" href="index.html">Home</a></li>
-                    <li><a class="nav-link " href="about.html">About Us</a></li>
-                    <li><a class="nav-link " href="404.html">Way To PLAB</a></li>
+					<li ><a class="nav-link active"  href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">About Us</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a class="dropdown-item nav-link nav_item" href="academy_profile.html">Academy Profile</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="our_association.html">Our Association</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="our_faculties.html">Our Faculties</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="nav-link " href="waytoplab.html">Way To PLAB</a></li>
+
                     <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">PLAB Courses</a>
                         <div class="dropdown-menu">
-							<ul>
+                            <ul>
                                 <li><a class="dropdown-item nav-link nav_item" href="course-plab1-detail.html">PLAB-1 Course</a></li>
                                 <li><a class="dropdown-item nav-link nav_item" href="course-plab2-detail.html">PLAB-2 Course</a></li>
                             </ul>
                         </div>
                     </li>
                     <li><a class="nav-link" href="fullscholorship.html">Full Sponsorship Program</a></li>
-                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
                     <li><a class="nav-link" href="contact.html">Contact US</a></li>
+                    
                     <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">More</a>
-                        <div class="dropdown-menu">
-							<ul>
-                                <li><a class="dropdown-item nav-link nav_item" href="#">Video</a></li>
+                        <div class="dropdown-menu dropdown-reverse">
+                         	<ul>
+                                <li><a class="dropdown-item nav-link nav_item" href="video.html">Video</a></li>
                                 <li><a class="dropdown-item nav-link nav_item" href="faq.html">FAQ-PLAB</a></li>
                                 <li><a class="dropdown-item nav-link nav_item" href="login.html">Admin Login</a></li>
-                            </ul>
+                        	</ul>
                         </div>
                     </li>
                 </ul>
@@ -121,53 +131,12 @@
 <div class="banner_section staggered-animation-wrap">
     <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow carousel_style2" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active background_bg overlay_bg_60" data-img-src="assets/images/banner1.jpg">
-                <div class="banner_slide_content">
-                    <div class="container"><!-- STRART CONTAINER -->
-                        <div class="row justify-content-center">
-                            <div class="col-lg-9 col-md-12 col-sm-12 text-center">
-                            	<div class="banner_content text_white">
-                            		<h2 class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.2s">Start learning for success future</h2>
-                            		<p class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.4s">We're one of the best places to Explore And Learn With Fun</p>
-                            		<a class="btn btn-default staggered-animation" href="#" data-animation="fadeInUp" data-animation-delay="0.6s">Get Started</a> 
-                            		<a class="btn btn-white staggered-animation" href="#" data-animation="fadeInUp" data-animation-delay="0.6s">Learn More</a> 
-                                </div>
-                            </div>
-                        </div>
+            <div class="carousel-item active background_bg overlay_bg_50" data-img-src="assets/images/banner1.jpg">
+                <div class="col-lg-12 col-md-12 col-sm-12 ">
+                    <div class="banner_content text_white text-left"> <br>
+                        <h2 class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.2s">Innovative Medical Education for all Doctors and Healthcare professionals</h2>
+                        <h5 class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.4s">Learn all in one place – Exam Preparations, Medical Lectures, Webinars, Mandatory Training</h5>
                     </div>
-                    <!-- END CONTAINER--> 
-                </div>
-            </div>
-            <div class="carousel-item background_bg overlay_bg_60" data-img-src="assets/images/banner1.jpg">
-                <div class="banner_slide_content">
-                  <div class="container"><!-- STRART CONTAINER -->
-                    <div class="row justify-content-center">
-                      <div class="col-lg-9 col-md-12 col-sm-12 text-center">
-                        <div class="banner_content text_white">
-                          <h2 class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.2s">Start learning for success future</h2>
-                          <p class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.4s">We're one of the best places to Explore And Learn With Fun</p>
-                          <a class="btn btn-default staggered-animation" href="#" data-animation="fadeInUp" data-animation-delay="0.6s">Get Started</a> 
-                          <a class="btn btn-white staggered-animation" href="#" data-animation="fadeInUp" data-animation-delay="0.6s">Learn More</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END CONTAINER--> 
-                </div>
-            </div>
-            <div class="carousel-item background_bg overlay_bg_60" data-img-src="assets/images/banner1.jpg">
-                <div class="banner_slide_content">
-                  <div class="container"><!-- STRART CONTAINER -->
-                    <div class="row justify-content-center">
-                      <div class="col-lg-9 col-md-12 col-sm-12 text-center">
-                        <div class="banner_content text_white">
-                          <h2 class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.2s">Start learning for success future</h2>
-                          <p class="staggered-animation" data-animation="fadeInUp" data-animation-delay="0.4s">We're one of the best places to Explore And Learn With Fun</p>
-                          <a class="btn btn-default staggered-animation" href="#" data-animation="fadeInUp" data-animation-delay="0.6s">Get Started</a> 
-                          <a class="btn btn-white staggered-animation" href="#" data-animation="fadeInUp" data-animation-delay="0.6s">Learn More</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END CONTAINER--> 
                 </div>
             </div>
         </div>
@@ -175,29 +144,21 @@
 </div>
 <!-- END SECTION BANNER -->
 
-<!-- START SECTION ABOUT -->
+<!-- START SECTION HOME ABOUT -->
 <div class="section">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="about_section pl-lg-2">
               		<div class="heading_s1"> 
-                    	<span class="sub_heading text-justify">About Us</span>
                 		<h4 class="text-justify">ABM Academy – Excellent healthcare through continuous learning</h4>
               		</div>
-              		<p class="text-justify">Arlington British Medical Academy (ABMA) is an award-winning UK based medical academy which has diverse interests in medical education in the UK and across the globe.
-              		The company was established in 2013 “by doctors for doctors and healthcare professionals”. We offer:</p>
                 </div>
             </div>
-
-        	<div class="col-lg-6 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-            	<div class="about_img"> 
-                	<img src="assets/images/about_img2.jpg" alt="about_img2" /> 
-                </div>
-          	</div>
           	<div class="col-lg-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="about_section pl-lg-3">
                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item heading_s1"><b>We offer:</b></li>
                         <li class="list-group-item">UK Medical School Entry </li>
                         <li class="list-group-item">Undergraduate Medical Education</li>
                         <li class="list-group-item">Primary care CPD / GP CPD events </li>
@@ -206,15 +167,18 @@
                         <li class="list-group-item">COVID-19 related Training</li>
                         <li class="list-group-item">Clinical Skill Courses</li>
                         <li class="list-group-item">Our Premises & Facilities</li>
-                    </ul> <br>                     
-              		<a class="btn btn-dark" href="#">Read More</a> 
+                    </ul>  
                 </div>
 			</div>
+            <div class="col-lg-6 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            	<div class="about_img"> 
+                	<img src="assets/images/about_img2.jpg" alt="about_img2" /> 
+                </div>
+          	</div>
 		</div>
 	</div>
 </div>
-<!-- END SECTION ABOUT -->
-
+<!-- END SECTION HOME ABOUT -->
 
 <!-- START SECTION APPLY COURSE-->
 <div class="section background_bg bg_blue" data-img-src="assets/images/pattern_bg1.png">
@@ -224,14 +188,13 @@
                 <div class="heading_s1 heading_apply_form heading_light">
 					<h2>Register now</h2>
                 </div>
-                <p class="text-white leads">The Most complete Online PLAB Part 1 Preparatory Course. Unlock everything you need for studying PLAB P1 success.</p>
-                <a href="#" class="btn btn-tran-light">Contact Us</a>
-                <a href="#" class="btn btn-tran-border">Already Apply</a>
+                <a href="contact.html" class="btn btn-tran-light">Contact Us</a>
+                <a href="contact.html" class="btn btn-tran-border">Already Apply</a>
             </div>
             <div class="col-xl-5 col-lg-6">
                 <div class="bg-white apply_form radius_all_10 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
 					<div class="heading_s1">
-						<h3>Apply Online Courses</h3>
+						<h3>Want to Apply</h3>
 					</div>
                 	<form>
                         <div class="form-group">
@@ -280,7 +243,7 @@
             <div class="col-lg-3 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
-                    	<i class="fas fa-globe"></i>
+                    	<i class="fas fa-user-graduate"></i>
                     </div>
                     <div class="icon_box_content">
                     	<h5>Primary care CPD / GP CPD Events</h5>
@@ -291,7 +254,7 @@
             <div class="col-lg-3 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.4s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
-                    	<i class="fas fa-graduation-cap"></i>
+                    	<i class="fas fa-user-graduate"></i>
                     </div>
                     <div class="icon_box_content">
                     	<h5>UK Royal College Exam Preparatory Courses</h5>
@@ -302,7 +265,7 @@
             <div class="col-lg-3 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.4s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
-                    	<i class="fas fa-graduation-cap"></i>
+                    	<i class="fas fa-user-graduate"></i>
                     </div>
                     <div class="icon_box_content">
                     	<h5>UK Medical School Entry</h5>
@@ -314,99 +277,6 @@
     </div>
 </div>
 <!-- END SECTION WHY CHOOSE --> 
-
-<!-- START SECTION COURSES-->
-<div class="section pb_70">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-8 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                <div class="heading_s1 text-center">
-                  <h2>A ‘One Stop PLAB Coaching’ for a sure success.</h2>
-                </div>
-            	<p class="text-center leads">If you’re preparing for PLAB then look no further. Join our full PLAB preparation programme.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="courses_box radius_all_10 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                    <div class="courses_img"> 
-                    	<a href="#"><img src="assets/images/course_img1.jpg" alt="course_img1"/></a>
-                    </div>
-                  	<div class="courses_info">
-                        <div class="rating_stars"> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star-outline"></i> 
-                            <span>4.0</span> 
-                        </div>
-                    	<h5 class="courses_title"><a href="#">PLAB 1 Online Revision Course</a></h5>
-                        <span>Unlock everything you need for studying PLAB 1 success. The all in one learning package. </span>
-                        
-                        <div class="courses_footer">
-                            <div class="courses_teacher"> 
-                                <a href="#"><span>Subscribe</span></a> 
-                            </div>
-                        </div>
-                  	</div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="courses_box radius_all_10 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                    <div class="courses_img"> 
-                    	<a href="#"><img src="assets/images/course_img2.jpg" alt="course_img1"/></a>
-                    </div>
-                  	<div class="courses_info">
-                        <div class="rating_stars"> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star-outline"></i> 
-                            <span>4.0</span> 
-                        </div>
-                    	<h5 class="courses_title"><a href="#">PLAB 1 Live [4 week] </a></h5>
-                        <span>Intensive online revision course helping prepare candidates for the PLAB Part 1 Test </span>
-                        
-                        <div class="courses_footer">
-                            <div class="courses_teacher"> 
-                                <a href="#"><span>Subscribe</span></a> 
-                            </div>
-                        </div>
-                  	</div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="courses_box radius_all_10 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                    <div class="courses_img"> 
-                    	<a href="#"><img src="assets/images/course_img3.jpg" alt="course_img1"/></a>
-                    </div>
-                  	<div class="courses_info">
-                        <div class="rating_stars"> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star"></i> 
-                            <i class="ion-android-star-outline"></i> 
-                            <span>4.0</span> 
-                        </div>
-                    	<h5 class="courses_title"><a href="#">PLAB 1 Face2Face [2-5 Day] </a></h5>
-                        <span>PLAB P 1 Course is “First of its kind” & guarantees a success for aspiring doctors wishing to take PLAB test. </span>
-                        
-                        <div class="courses_footer">
-                            <div class="courses_teacher"> 
-                                <a href="#"><span>Book Now</span></a> 
-                            </div>
-                        </div>
-                  	</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END SECTION COURSES--> 
-
 
 <!-- START SECTION COUNTER -->
 <div class="section background_bg counter_wrap bg_blue fixed_bg" data-img-src="assets/images/pattern_bg1.png">
@@ -464,16 +334,7 @@
                     </div>
     			</div>
                 <div class="col-xl-2 col-md-4 col-sm-5">
-                    <div class="widget">
-                        <h6 class="widget_title">Useful Links</h6>
-                        <ul class="widget_links">
-                            <li><a href="#">Our Mission</a>
-                            <li><a href="#">Our services</a></li>
-                            <li><a href="#">Company history</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Support center</a>
-                        </ul>
-                    </div>
+
                 </div>
                 <div class="col-xl-5 col-md-6 col-sm-5">
                     <div class="widget">
@@ -481,7 +342,7 @@
                         <ul class="contact_info contact_info_light">
                             <li> 
                                 <i class="ti-location-pin"></i>
-                                <p>123 Street, Old Trafford, New South London , UK</p>
+                                <p>167 Union Street, Oldham, Greater Manchester OL1 1TD, UK</p>
                             </li>
                             <li> 
                                 <i class="ti-email"></i> 
@@ -507,7 +368,7 @@
     			<div class="bottom_footer border-top-tran">
     				<div class="row">
     					<div class="col-md-6">
-    						<p class="mb-md-0 text-center text-md-left">© 2021 All Rights Reserved by <span class="text_default">LAMS-Lucknow Academy of Medical Sciences (P) Ltd.</span></p>
+    						<p class="mb-md-0 text-center text-md-left">© <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="text_default">ABMAPLAB (P) Ltd.</span></p>
     					</div>
                         <div class="col-md-6">
                             <ul class="list_none footer_link text-center text-md-right">
@@ -555,6 +416,5 @@
 <script src="assets/js/scripts.js"></script>
 
 </body>
-
 <!-- Mirrored from templatemanja.com/educone/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Mar 2021 18:52:17 GMT -->
 </html>

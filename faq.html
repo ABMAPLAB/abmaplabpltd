@@ -12,7 +12,7 @@
 <meta name="keywords" content="academy, course, education, elearning, learning, education html template, university template, college template, school template, online education template, tution center template">
 
 <!-- SITE TITLE -->
-<title>ABMAPLAB-FAQ</title>
+<title>ABMAPLAB - FAQ</title>
 <!-- Favicon Icon -->
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 <!-- Animation CSS -->
@@ -82,32 +82,43 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg"> 
         	<a class="navbar-brand" href="index.html"> 
+            	<img class="logo_light" src="assets/images/logo_light.png" alt="logo"> 
                 <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo"> 
             </a>
           	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"> <span class="ion-android-menu"></span> </button>
-			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-					<li><a class="nav-link " href="index.html">Home</a></li>
-                    <li><a class="nav-link " href="about.html">About Us</a></li>
-                    <li><a class="nav-link " href="404.html">Way To PLAB</a></li>
+					<li ><a class="nav-link "  href="index.html">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">About Us</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a class="dropdown-item nav-link nav_item" href="academy_profile.html">Academy Profile</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="our_association.html">Our Association</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="our_faculties.html">Our Faculties</a></li>
+                                <li><a class="dropdown-item nav-link nav_item" href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="nav-link " href="waytoplab.html">Way To PLAB</a></li>
+
                     <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">PLAB Courses</a>
                         <div class="dropdown-menu">
-							<ul>
+                            <ul>
                                 <li><a class="dropdown-item nav-link nav_item" href="course-plab1-detail.html">PLAB-1 Course</a></li>
                                 <li><a class="dropdown-item nav-link nav_item" href="course-plab2-detail.html">PLAB-2 Course</a></li>
                             </ul>
                         </div>
                     </li>
                     <li><a class="nav-link" href="fullscholorship.html">Full Sponsorship Program</a></li>
-                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
                     <li><a class="nav-link" href="contact.html">Contact US</a></li>
+                    
                     <li class="dropdown"><a class="dropdown-toggle nav-link active" data-toggle="dropdown" href="#">More</a>
-                        <div class="dropdown-menu">
-							<ul>
-                                <li><a class="dropdown-item nav-link nav_item " href="#">Video</a></li>
+                        <div class="dropdown-menu dropdown-reverse">
+                         	<ul>
+                                <li><a class="dropdown-item nav-link nav_item" href="video.html">Video</a></li>
                                 <li><a class="dropdown-item nav-link nav_item active" href="faq.html">FAQ-PLAB</a></li>
                                 <li><a class="dropdown-item nav-link nav_item" href="login.html">Admin Login</a></li>
-                            </ul>
+                        	</ul>
                         </div>
                     </li>
                 </ul>
@@ -140,44 +151,139 @@
 	<div class="container">
         <div class="row">
         	<div class="col-12 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-            	<div class="single_faq">
-                	<div class="faq_question">
-                    	<h5>How To Use Wordpress?</h5>
+                <div id="accordion" class="accordion accordion_style1">
+                    <div class="card">
+                        <div class="card-header" id="heading-1-One">
+                          <h6 class="mb-0"> <a data-toggle="collapse" href="#collapse-1-One" aria-expanded="true" aria-controls="collapse-1-One">PLAB: This stands for Professional and Linguistic Assessment Board?</a></h6>
+                        </div>
+                        <div id="collapse-1-One" class="collapse show" aria-labelledby="heading-1-One" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul class="widget_categories">
+                                <li><a href="#"><span class="categories_name">This is the main gateway through which most doctors get registration with the GMC</span></a></li>
+                                <li><a href="#"><span class="categories_name">Therre are 3 steps: Step 1: IELTS ——&gt; Step 2: PLAB 1 ——&gt; Step 3: PLAB 2.</span></a></li>
+                                <li><a href="#"><span class="categories_name">After PLAB 2 you get GMC registration and then you start to apply for jobs straight away or you can look for clinical attachment.</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Two">
+                            <h6 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#collapse-1-Two" aria-expanded="false" aria-controls="collapse-1-Two">How to study for IELTS?</a></h6>
+                        </div>
+                        <div id="collapse-1-Two" class="collapse" aria-labelledby="heading-1-Two" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="widget_categories">
+                                    <li><a><span class="categories_name">There are a lot of online resources for IELTS. So all you need to do is to google. </span></a></li>
+                                    <li><a><span class="categories_name">Cambridge IELTS practise tests book. There are 9 book in total.</span></a></li>
+                                    <li><a><span class="categories_name">Usually most people find it difficulty to get the required marks in reading and writing.</span></a></li>
+                                    <li><a><span class="categories_name">Target band 7</span></a></li>
+                                    <li><a target="blank" href="https://www.ielts.org/"><span class="categories_name">Click here to know more about IELTS</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq_answer">
-                    	<p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Three">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Three" aria-expanded="false" aria-controls="collapse-1-Three">How long does it take to find a job in the UK?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Three" class="collapse" aria-labelledby="heading-1-Three" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Nowadays it take about 2-3 months on average to find a job in the UK, provided you do not mind where you get a job. If you want to stay in one specific area this period can be longer.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="single_faq">
-                	<div class="faq_question">
-                    	<h5>Installation and Set-Up Guide?</h5>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Four">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Four" aria-expanded="false" aria-controls="collapse-1-Four">Do I need to do the foundation programme?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Four" class="collapse" aria-labelledby="heading-1-Four" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>If you have done the house job in your home country, you do to need to do the foundation programme. The foundation programme is only for the those candidates who have not done internship or house job in their country.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq_answer">
-                    	<p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Five">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Five" aria-expanded="false" aria-controls="collapse-1-Five">What is the advantage of doing the foundation programme?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Five" class="collapse" aria-labelledby="heading-1-Five" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>You stand a very good chance of getting a training job in a specialty of your choice like ophthalmology, surgery, or radiology.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="single_faq">
-                	<div class="faq_question">
-                    	<h5>Took a galley of type unknown printer?</h5>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Six">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Six" aria-expanded="false" aria-controls="collapse-1-Six">What is a training job?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Six" class="collapse" aria-labelledby="heading-1-Six" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>A training job is one in which get carer progression every year. You will assessed during your job. And you have to attend courses and teaching. Every year your level goes up.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq_answer">
-                    	<p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Seven">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Seven" aria-expanded="false" aria-controls="collapse-1-Seven">What is a non training job?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Seven" class="collapse" aria-labelledby="heading-1-Seven" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>This is normal work. You just work for money. Though you will be learning and you will have same learning opportunity like doctors in training you will not get a carer progression every year.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="single_faq">
-                	<div class="faq_question">
-                    	<h5>Smart Learning is an education platform partners</h5>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Eight">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Eight" aria-expanded="false" aria-controls="collapse-1-Eight">What type of job will I get when I finish PLAB exams?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Eight" class="collapse" aria-labelledby="heading-1-Eight" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>This depends on your experience. If you have a full GMC registration, you are likely to get an SHO job. If you do MRCS or MRCP you are likely to get a higher level job.</p>
+                                <ul class="widget_categories">
+                                    <li><a><span class="categories_name">You can get registrar or consultant job.</span></a></li>
+                                    <li><a><span class="categories_name">Obviously some specialties are more difficulty than others.</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq_answer">
-                    	<p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Nine">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Nine" aria-expanded="false" aria-controls="collapse-1-Nine">What types of Jobs are available?</a> </h6>
+                        </div>
+                        <div id="collapse-1-Nine" class="collapse" aria-labelledby="heading-1-Nine" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="widget_categories">
+                                    <li><a><span class="categories_name">1. Locum Agency (you need a work permit)</span></a></li>
+                                    <li><a><span class="categories_name">2. NHS – Non training jobs</span></a></li>
+                                    <li><a><span class="categories_name">3. NHS Training jobs (Core training and Speciality training)</span></a></li>
+                                    <li><a><span class="categories_name">4. Private hospitals (apply for visa)</span></a></li>
+                                    <li><a><span class="categories_name">5. Foundation programme</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="single_faq">
-                	<div class="faq_question">
-                    	<h5>Education of Tomorrow, Rooted in Tradition</h5>
-                    </div>
-                    <div class="faq_answer">
-                    	<p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="card">
+                        <div class="card-header" id="heading-1-Ten">
+                            <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-1-Ten" aria-expanded="false" aria-controls="collapse-1-Ten">Summary of the steps in getting the job in the UK via PLAB Route:</a> </h6>
+                        </div>
+                        <div id="collapse-1-Ten" class="collapse" aria-labelledby="heading-1-Ten" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="widget_categories">
+                                    <li><a><span class="categories_name">1. IELTS</span></a></li>
+                                    <li><a><span class="categories_name">2. PLAB 1.</span></a></li>
+                                    <li><a><span class="categories_name">3. PLAB 2</span></a></li>
+                                    <li><a><span class="categories_name">4. GMC Registration (Provisional or Full Registration)</span></a></li>
+                                    <li><a><span class="categories_name">5. Clinical Attachment (can be done at any time and not mandatory)</span></a></li>
+                                    <li><a><span class="categories_name">6. NHS Job Application</span></a></li>
+                                    <li><a><span class="categories_name">7. Get a job (non-training job or training)</span></a></li>
+                                    <li><a><span class="categories_name">8. Apply for Tier 2 work permit in your home country</span></a></li>
+                                    <li><a><span class="categories_name">9. Return to UK and start your job.</span></a></li>
+                                    <li><a><span class="categories_name">10. Apply for training jobs</span></a></li>
+                                    <li><a><span class="categories_name">11. Get training job</span></a></li>
+                                    <li><a><span class="categories_name">12. Happy man/woman.</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -209,16 +315,7 @@
                     </div>
     			</div>
                 <div class="col-xl-2 col-md-4 col-sm-5">
-                    <div class="widget">
-                        <h6 class="widget_title">Useful Links</h6>
-                        <ul class="widget_links">
-                            <li><a href="#">Our Mission</a>
-                            <li><a href="#">Our services</a></li>
-                            <li><a href="#">Company history</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Support center</a>
-                        </ul>
-                    </div>
+
                 </div>
                 <div class="col-xl-5 col-md-6 col-sm-5">
                     <div class="widget">
@@ -226,7 +323,7 @@
                         <ul class="contact_info contact_info_light">
                             <li> 
                                 <i class="ti-location-pin"></i>
-                                <p>123 Street, Old Trafford, New South London , UK</p>
+                                <p>167 Union Street, Oldham, Greater Manchester OL1 1TD, UK</p>
                             </li>
                             <li> 
                                 <i class="ti-email"></i> 
@@ -252,7 +349,7 @@
     			<div class="bottom_footer border-top-tran">
     				<div class="row">
     					<div class="col-md-6">
-    						<p class="mb-md-0 text-center text-md-left">© 2021 All Rights Reserved by <span class="text_default">LAMS-Lucknow Academy of Medical Sciences (P) Ltd.</span></p>
+    						<p class="mb-md-0 text-center text-md-left">© <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="text_default">ABMAPLAB (P) Ltd.</span></p>
     					</div>
                         <div class="col-md-6">
                             <ul class="list_none footer_link text-center text-md-right">
@@ -266,7 +363,7 @@
         </div>
     </div>
 </footer>
-<!-- END FOOTER --> 
+<!-- END FOOTER -->
 
 <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
 
